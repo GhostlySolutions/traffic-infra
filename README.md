@@ -47,4 +47,5 @@ curl http://localhost:3001/healthz
 (Опционально) Проверить доступ к Redis и ClickHouse:
 
 redis-cli -h cp-01 ping
+
 curl -s "http://default:clickpass@162.243.22.121:8123/ping"
